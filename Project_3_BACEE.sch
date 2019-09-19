@@ -103,7 +103,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 6400 2250 50 
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 5950 3550 2400 2150
+S 6250 3600 2400 2150
 U 5D83B0D5
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
@@ -181,6 +181,28 @@ F 1 "DS1337" H 4800 4040 50  0000 C CNN
 F 2 "" H 5050 4350 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2000844.pdf?_ga=2.177508589.917776798.1568905288-909876714.1550950510&_gac=1.216414692.1568905288.Cj0KCQjwzozsBRCNARIsAEM9kBOgoySVZbm8O6iFhnJvaEFTPgnKihPjdqZAtUZmWq1n3gbdbDGyVXUaAgFCEALw_wcB" H 5050 4350 50  0001 C CNN
 	1    4800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5D83E063
+P 5450 3200
+F 0 "Y?" H 5450 3468 50  0000 C CNN
+F 1 "Crystal" H 5450 3377 50  0000 C CNN
+F 2 "" H 5450 3200 50  0001 C CNN
+F 3 "~" H 5450 3200 50  0001 C CNN
+	1    5450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5D83E859
+P 6000 3200
+F 0 "Y?" H 6000 3468 50  0000 C CNN
+F 1 "Crystal" H 6000 3377 50  0000 C CNN
+F 2 "" H 6000 3200 50  0001 C CNN
+F 3 "~" H 6000 3200 50  0001 C CNN
+	1    6000 3200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
