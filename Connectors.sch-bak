@@ -84,8 +84,6 @@ Text HLabel 6950 1900 0    50   Input ~ 0
 Vcc
 Text HLabel 6950 2000 0    50   BiDi ~ 0
 SDA
-Text HLabel 6950 2100 0    50   BiDi ~ 0
-SCK_I2C
 Text HLabel 4450 3550 0    50   BiDi ~ 0
 D2
 Text HLabel 4450 3650 0    50   BiDi ~ 0
@@ -104,4 +102,6 @@ Text HLabel 4450 4250 0    50   Input ~ 0
 GND
 Text HLabel 4450 4350 0    50   Input ~ 0
 Vcc
+Text HLabel 6950 2100 0    50   BiDi ~ 0
+SCK
 $EndSCHEMATC
