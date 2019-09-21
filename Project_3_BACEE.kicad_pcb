@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 12)
     (tracks 0)
     (zones 0)
     (modules 17)
@@ -184,7 +184,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5D861D75)
-    (at 112.903 92.456)
+    (at 112.903 93.98)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5D8368FA)
@@ -977,5 +977,18 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_circle (center 151.13 88.138) (end 149.86 88.138) (layer Edge.Cuts) (width 0.05) (tstamp 5D863AF2))
+  (gr_circle (center 151.13 111.506) (end 149.86 111.506) (layer Edge.Cuts) (width 0.05) (tstamp 5D863AF0))
+  (gr_circle (center 113.03 111.506) (end 111.76 111.506) (layer Edge.Cuts) (width 0.05) (tstamp 5D863AEE))
+  (gr_circle (center 113.03 88.138) (end 111.76 88.138) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 153.162 112.776) (end 153.162 86.868) (layer Edge.Cuts) (width 0.05) (tstamp 5D863A2E))
+  (gr_line (start 111.76 113.538) (end 152.4 113.538) (layer Edge.Cuts) (width 0.05) (tstamp 5D863A2D))
+  (gr_line (start 152.4 86.106) (end 111.76 86.106) (layer Edge.Cuts) (width 0.05) (tstamp 5D863A2C))
+  (gr_line (start 110.998 112.776) (end 110.998 86.868) (layer Edge.Cuts) (width 0.05) (tstamp 5D863A2B))
+  (gr_arc (start 152.4 86.868) (end 153.162 86.868) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 152.4 112.776) (end 152.4 113.538) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 111.76 112.776) (end 110.998 112.776) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 111.76 86.868) (end 111.76 86.106) (angle -90) (layer Edge.Cuts) (width 0.05))
 
 )
